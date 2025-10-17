@@ -457,37 +457,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_PMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "DIPOS_Transistor:smd-транзистор*n-канальный*2.7А*60В*sot-23*импорт"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "VT"
+				(at 20.32 2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 2.5 2.5)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Q_PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Value" "IRLML0060"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -495,7 +481,25 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Footprint" "DIPOS_Package_SO:SOT-23-3"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DIPOS_DOCUMENTATION_DIR}/Транзисторы/IRLML0060TRPBF.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Транзистор N-канальный маленький силовой"
 				(at 0 0 0)
 				(effects
 					(font
@@ -504,7 +508,24 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-MOSFET transistor"
+			(property "INFO" "2,7A 60В"
+				(at 20.32 -2.54 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "NAME" "Транзистор SOT-23 MOSFET N-канальный IRLML0060"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Транзистор N-канальный маленький силовой"
 				(at 0 0 0)
 				(effects
 					(font
@@ -513,194 +534,200 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "PMOS P-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "smd-транзистор*n-канальный*2.7А*60В*sot-23*импорт_0_1"
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -3.81 -5.08)
 					)
-					(hide yes)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -10.16 -5.08)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 8.89)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -2.54 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 10.16) (xy 2.54 5.715)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0.45)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 5.08 -3.81) (xy 5.08 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.4572)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 6.35 1.27)
+					)
+					(stroke
+						(width 0.4572)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 5.08 1.27) (xy 6.35 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.4572)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
 			)
-			(symbol "Q_PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_1_1"
+			(symbol "smd-транзистор*n-канальный*2.7А*60В*sot-23*импорт_1_1"
 				(pin input line
-					(at -5.08 0 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "G"
+					(hide yes)
+					(name "Gate"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -708,17 +735,18 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin input line
+					(at 2.54 10.16 270)
 					(length 2.54)
-					(name "D"
+					(hide yes)
+					(name "Drain"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -726,17 +754,18 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at 2.54 -10.16 90)
 					(length 2.54)
-					(name "S"
+					(hide yes)
+					(name "Source"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2220,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 63.5) (xy 208.28 63.5)
+			(xy 183.515 63.5) (xy 223.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2260,13 +2289,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 91.44) (xy 208.28 100.33)
+			(xy 223.52 110.49) (xy 223.52 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35d9370c-9a2e-43fd-becc-2fbd5b482f68")
+		(uuid "293007ee-0bd9-42a9-9a9b-c18928264199")
 	)
 	(wire
 		(pts
@@ -2320,6 +2349,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 82.55) (xy 223.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddfc1d5-af30-4770-9f4f-a6413a0455db")
+	)
+	(wire
+		(pts
 			(xy 152.4 95.25) (xy 154.94 95.25)
 		)
 		(stroke
@@ -2340,6 +2379,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 105.41) (xy 199.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653898f9-8bd7-468b-85e8-e2ec59c4fd76")
+	)
+	(wire
+		(pts
 			(xy 183.515 63.5) (xy 183.515 71.12)
 		)
 		(stroke
@@ -2350,7 +2399,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 130.81) (xy 208.28 130.81)
+			(xy 179.705 130.81) (xy 223.52 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2460,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 63.5) (xy 208.28 81.28)
+			(xy 223.52 63.5) (xy 223.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2477,6 +2526,16 @@
 			(type default)
 		)
 		(uuid "b15f39af-fd14-4bf9-a8a1-ed66ce1b1996")
+	)
+	(wire
+		(pts
+			(xy 207.01 105.41) (xy 210.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2995c1a-bb18-451e-ac3b-ca935030576f")
 	)
 	(wire
 		(pts
@@ -2560,16 +2619,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 105.41) (xy 200.66 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5191908-d912-45bf-aa8c-30b3e63b1001")
-	)
-	(wire
-		(pts
 			(xy 58.42 97.79) (xy 55.88 97.79)
 		)
 		(stroke
@@ -2577,16 +2626,6 @@
 			(type default)
 		)
 		(uuid "f8edccfc-e14c-4b1a-915f-a45e23958f1d")
-	)
-	(wire
-		(pts
-			(xy 208.28 110.49) (xy 208.28 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa683f39-91a0-44b1-8455-058d20c8fb72")
 	)
 	(wire
 		(pts
@@ -2668,6 +2707,97 @@
 		)
 	)
 	(symbol
+		(lib_id "DIPOS_Transistor:smd-транзистор*n-канальный*2.7А*60В*sot-23*импорт")
+		(at 220.98 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "366dc742-0092-4b71-9ce9-9f225ead8aab")
+		(property "Reference" "VT1"
+			(at 231.14 97.79 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0060"
+			(at 220.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DIPOS_Package_SO:SOT-23-3"
+			(at 220.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DIPOS_DOCUMENTATION_DIR}/Транзисторы/IRLML0060TRPBF.pdf"
+			(at 220.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Транзистор N-канальный маленький силовой"
+			(at 220.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INFO" "2,7A 60В"
+			(at 231.14 102.87 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left)
+			)
+		)
+		(property "NAME" "Транзистор SOT-23 MOSFET N-канальный IRLML0060"
+			(at 220.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "80945bdf-9777-4c5d-8137-668778a5737a")
+		)
+		(pin "1"
+			(uuid "ab1c3d05-ab5d-43f8-9a68-55b82a1189ed")
+		)
+		(pin "2"
+			(uuid "68f3a5ee-825b-4cc6-abdb-cfe9529f067b")
+		)
+		(instances
+			(project ""
+				(path "/85e4e3d9-5ce6-4b3f-8c48-5d83bde13bc2"
+					(reference "VT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "#метка-12V_1")
 		(lib_id "niisk_lib:#метка-12V")
 		(at 88.9 59.69 0)
@@ -2737,7 +2867,7 @@
 	)
 	(symbol
 		(lib_id "petr_chip:smd_led_0603")
-		(at 208.28 81.28 270)
+		(at 223.52 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2745,7 +2875,7 @@
 		(dnp no)
 		(uuid "3e861b9a-72c3-48af-bc70-62871107e8d0")
 		(property "Reference" "LED1"
-			(at 201.93 81.28 90)
+			(at 217.17 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2884,7 @@
 			)
 		)
 		(property "Value" "smd_led_0603"
-			(at 203.2 86.36 0)
+			(at 218.44 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2893,7 @@
 			)
 		)
 		(property "Footprint" "MOTOR_VD_VT_HL:Светодиод_SMD_IEC_0603"
-			(at 201.168 87.122 0)
+			(at 216.408 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 84.709 0)
+			(at 223.52 75.819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 81.28 0)
+			(at 223.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2920,7 @@
 			)
 		)
 		(property "NAME" ""
-			(at 208.28 82.55 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,45 +3163,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PMOS")
-		(at 205.74 105.41 0)
+		(lib_id "SL_Resistors:Resistor")
+		(at 203.2 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a8b7b2f2-c4c6-466e-ad70-b617a5249e3b")
-		(property "Reference" "Q1"
-			(at 212.09 105.4099 0)
+		(uuid "d0ef6a12-6717-403e-9b77-3f6c6de57801")
+		(property "Reference" "R3"
+			(at 203.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS"
-			(at 212.09 106.6799 0)
+		(property "Value" "10"
+			(at 203.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 210.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 105.41 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 202.311 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,8 +3197,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor"
-			(at 205.74 105.41 0)
+		(property "Datasheet" ""
+			(at 202.692 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,19 +3206,25 @@
 				(hide yes)
 			)
 		)
-		(pin "G"
-			(uuid "4213cc1f-d151-4bca-b338-cf147886ae37")
+		(property "Description" "1/4W Resistor"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "S"
-			(uuid "14f3f4ae-2e61-46c5-b547-c46d4919aff7")
+		(pin "1"
+			(uuid "c1d5abbf-c4a4-45af-b777-990f900096fb")
 		)
-		(pin "D"
-			(uuid "02e05c8e-9559-458d-8d0f-d3d58687eec8")
+		(pin "2"
+			(uuid "e82bd519-1a16-49b4-a860-5383fd68005e")
 		)
 		(instances
-			(project ""
+			(project "BSL-scheme"
 				(path "/85e4e3d9-5ce6-4b3f-8c48-5d83bde13bc2"
-					(reference "Q1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3193,7 +3317,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "4.7k"
 			(at 157.48 104.1399 90)
 			(effects
 				(font
@@ -3319,7 +3443,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4139235-aee9-4365-a4dc-54c75f87c071")
 		(property "Reference" "R1"
 			(at 148.59 88.9 0)
@@ -3329,7 +3452,7 @@
 				)
 			)
 		)
-		(property "Value" "13k"
+		(property "Value" "6.8k"
 			(at 148.59 91.44 0)
 			(effects
 				(font
